@@ -10,8 +10,8 @@ int main(void) {
 
 	try {
 		driver = sql::mysql::get_driver_instance();
-		con = driver->connect("tcp://127.0.0.1:3306", "root", "qaz#123");
-		con->setSchema("mysql_tutorials");
+		con = driver->connect("tcp://127.0.0.1:3306", "YOUR_USERNAME", "YOUR_PASSWORD");
+		con->setSchema("YOUR_DATABASE_NAME");
 		sql::Statement *stmt = con->createStatement();
 		sql::ResultSet *res = stmt->executeQuery("select * from students");
 
