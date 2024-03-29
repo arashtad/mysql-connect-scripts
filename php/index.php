@@ -1,9 +1,9 @@
 <?php
 
-$servername = 'localhost';
-$username = 'root';
-$password = 'qaz#123';
-$database = 'mysql_tutorials';
+$servername = 'YOUR_HOST_NAME';
+$username = 'YOUR_USERNAME';
+$password = 'YOUR_PASSWORD';
+$database = 'YOUR_DATABASE_NAME';
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
