@@ -4,9 +4,9 @@ use strict;
 use warnings;
 use DBI;
 
-my $dsn = "DBI:mysql:database=mysql_tutorials;host=127.0.0.1;port=3306";
-my $username = "root";
-my $password = "qaz#123";
+my $dsn = "DBI:mysql:database=YOUR_DATABASE_NAME;host=127.0.0.1;port=3306";
+my $username = "YOUR_USERNAME";
+my $password = "YOUR_PASSWORD";
 
 my $dbh = DBI->connect($dsn, $username, $password) or die "Could not connect to database: $DBI::errstr";
 
