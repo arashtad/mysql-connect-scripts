@@ -1,10 +1,10 @@
 #!/bin/bash
 
-HOST="localhost"
+HOST="YOUR_HOST_NAME"
 PORT="3306"
-USER="root"
-PASSWORD="qaz#123"
-DATABASE="mysql_tutorials"
+USER="YOUR_USERNAME"
+PASSWORD="YOUR_PASSWORD"
+DATABASE="YOUR_DATABASE_NAME"
 
 QUERY="select * from students"
 
