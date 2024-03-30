@@ -8,4 +8,4 @@ https://www.youtube.com/watch?v=w9Cy7jIiRJw&list=PLECOetiSS4M0sQdZOXlMDji38uyCr7
 
 Also, you can use the .sql file inside this directory to simulate the database that we worked on during the tutorial. To import the data into your MySQL server command:
 
-mysql -u root -p mysql_tutorials < mysql_tutorials_database.sql
+mysql -u [YOUR_MYSQL_USERNAME] -p mysql_tutorials < mysql_tutorials_database.sql
